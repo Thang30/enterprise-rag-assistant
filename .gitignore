@@ -51,6 +51,7 @@ dist/
 # Frontend
 frontend/dist/
 frontend/.env*
+frontend/.vite
 
 # Misc
 *.swp
