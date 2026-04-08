@@ -18,7 +18,14 @@ class Settings(BaseSettings):
     port: int = 8000
     log_level: str = "INFO"
     cors_origins: list[str] = Field(
-        default_factory=lambda: ["http://localhost:3000", "http://127.0.0.1:3000"],
+        default_factory=lambda: [
+            "http://localhost:3000",
+            "http://127.0.0.1:3000",
+            "http://localhost:5173",
+            "http://127.0.0.1:5173",
+            "http://localhost:4173",
+            "http://127.0.0.1:4173",
+        ],
         description="Allowed CORS origins for frontend clients.",
     )
 
