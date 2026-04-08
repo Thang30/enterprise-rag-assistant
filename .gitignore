@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.venv/
+venv/
+ENV/
+.env*
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# Test and coverage outputs
+htmlcov/
+.tox/
+.nox/
+.coverage*
+.cache/
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Docker
+**/docker-compose.override.yml
+**/docker-compose.*.yml
+**/Dockerfile*
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Frontend
+frontend/dist/
+frontend/.env*
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore data and secrets
+/data/
+secrets/
